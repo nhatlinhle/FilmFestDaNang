@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./font/Montserrat-Light.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Montserrat;
+  color: #FFF;
+}
+
+header{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: space-evenly;
+  top: 24px;
+}
+header ul, .user_register{
+  display: flex;
+  align-items: center;
+}
+header ul li:not(:first-child){
+  margin-left: 32px;
+}
+header ul li a{
+font-size: 14px;
+font-style: normal;
+line-height: 24px;
+color: #fff;
+font-weight: 400;
+}
+header svg{
+  margin-left: 16px;
+}
+#prize{
+  color: #F9D201;
+  font-weight: 600;
+  border-bottom: 2px solid #F9D201;
+  padding-bottom: 8px;
+}
+#user_register{
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border: 2px solid #F9D201;
+  border-radius: 4px;
+  color: #F9D201;
+  font-weight: 600;
+}
+#user_register img{
+  margin-right: 12px;
+}
+.home_initial{
+  background-image: url(./images/home-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 96px;
+  text-align: center;
+  height: 800px;
+}
+#home-title{
+  margin-top: -40px;
+}
