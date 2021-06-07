@@ -59,8 +59,20 @@ header svg{
   background-size: cover;
   padding-top: 96px;
   text-align: center;
-  height: 800px;
+  height: 900px;
 }
 #home-title{
-  margin-top: -40px;
+  margin-top: -60px;
+}
+.home_initial div{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.home_initial h4{
+  font-size: 21px;
+}
+.home_initial_button a{
+  padding: 12px;
+  border: 2px solid #F9D201;
+  border-radius: 4px;
 }
